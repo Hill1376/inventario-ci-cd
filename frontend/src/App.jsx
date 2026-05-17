@@ -8,7 +8,7 @@ function App() {
   const [sku, setSku] = useState('');
   const [nombre, setNombre] = useState('');
 
-  // Cargar productos al inicio
+  // Cargar productos al inicio 
   useEffect(() => {
     fetch(API_URL)
       .then((res) => res.json())
